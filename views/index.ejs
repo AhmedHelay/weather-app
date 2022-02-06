@@ -16,7 +16,7 @@
   <body>
     <div class="container m-3 jumbotron shadow p-3 mb-5 bg-white rounded">
       <h1 class="md-4 font-weight-bold">Weather API</h1>
-      <form action="/weather" method="GET">
+      <form action="/weather/map" method="GET">
         <div class="form-group">
           <input
             required
@@ -26,7 +26,19 @@
             class="form-control"
           />
         </div>
-        <button type="submit" class="btn btn-primary">Check Weather</button>
+        <button type="submit" class="btn btn-info mb-5">Check Weather</button>
+      </form>
+      <form action="/weather/geo" method="GET">
+        <div class="form-group">
+          <input
+            required
+            type="text"
+            name="city"
+            id="city"
+            class="form-control"
+          />
+        </div>
+        <button type="submit" class="btn btn-info">Show GEO</button>
       </form>
     </div>
   </body>
