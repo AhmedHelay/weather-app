@@ -16,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/AhmedHelay/weather-app/issues"
   },
-  "homepage": "https://github.com/AhmedHelay/weather-app#readme",
   "dependencies": {
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
