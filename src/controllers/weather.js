@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const weather = require("./../utils/weather");
+const weather = require("../utils/weather");
 
 router.get("/map", async (req, res) => {
   response = await weather.getMap(req.query.city);
