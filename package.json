@@ -8,13 +8,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmedHelay/weather-app.git"
+    "url": "git+https://github.com/escalopa/weather-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/AhmedHelay/weather-app/issues"
+    "url": "https://github.com/escalopa/weather-app/issues"
   },
   "dependencies": {
     "axios": "^0.25.0",
